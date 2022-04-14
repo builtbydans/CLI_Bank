@@ -14,6 +14,6 @@ class View
   def ask_user_for_number
     puts "Account Number?"
     print "> "
-    return gets.chomp.to_i
+    return gets.chomp.to_i - 1
   end
 end
